@@ -259,7 +259,7 @@ try:
 except IOError:
     print(f"An error occurred while writing to the file {file_path}.")
 
-    1.open(file_path, 'w'): Opens the file in write mode ('w'). If the file does not exist, it will be created. If it does exist, its content will be truncated.
+    1.open(file_path, 'w'): Opens the file in write mode ('w'). If the file does not exist, it will be created. If it does exist, its         content will be truncated.
     2.file.write(line + '\n'): Writes each line to the file, adding a newline character at the end.
     3.with statement: Ensures the file is properly closed after its suite finishes, even if an exception is raised.
 
