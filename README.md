@@ -222,7 +222,7 @@ Execution of the 'try except' block is complete.
    Import specific attributes from a module- This allows you to use function_name directly without the module name prefix.
    Import all attributes from a module- This imports all functions, classes, and variables from the module.
    
-11. File I/O:
+10. File I/O:
     - How do you read from and write to files in Python? Write a script that reads the content of a file and prints it to the console, and another script that writes a list of strings to a file.
    
     - Reading from files in python: To read from a file in Python, you can use the open function along with the read method.
